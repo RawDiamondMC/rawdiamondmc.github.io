@@ -12,7 +12,7 @@ body #container {
     position: relative;
     padding: 5% auto;
     text-align: center;
-    background: url("../img/bg.png") no-repeat center;
+    background: url("https://www.helloimg.com/images/2023/02/05/oZ8EbE.png") no-repeat center;
     background-size: cover;
 }
 html .btn,
@@ -43,7 +43,7 @@ body .btn:before {
     top: -4px;
     left: -4px;
     right: -4px;
-    background: url("../img/bg.png") no-repeat;
+    background: url("https://www.helloimg.com/images/2023/02/05/oZ8EbE.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
