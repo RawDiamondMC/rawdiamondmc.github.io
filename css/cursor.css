@@ -1,0 +1,21 @@
+body {
+	cursor: url(Arrow.cur), default;
+}
+select{
+	cursor: url(Hand.cur), pointer;
+}
+button,a:hover{
+	cursor: url(Hand2.cur), pointer;
+}
+input{
+	cursor:url(Help.cur), text;	
+}
+textarea,input:focus{
+	cursor:url(IBeam.cur), text;	
+}
+code{
+	cursor: url(Handwriting.cur), default;	
+}
+pre>code{
+	cursor: url(Copy.cur), default;	
+}
