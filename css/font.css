@@ -1,6 +1,6 @@
 @font-face{
 	font-family: 'lolita';
-	src: url('https://cdn.jsdelivr.net/gh/rawdiamondmc/rawdiamondmc.github.io/fonts/lolita.ttf');
+	src: url('../fonts/lolita.ttf');
 }
 body{
 	font-family: "lolita";
