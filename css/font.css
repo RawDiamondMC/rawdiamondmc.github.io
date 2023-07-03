@@ -1,8 +1,5 @@
-@font-face{
-	font-family: 'lolita';
-	src: url('../fonts/lolita.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+body {
+ font-family: 'Outfit', sans-serif;
 }
-body{
-	font-family: "lolita";
-}
-/*设置字体萝莉体*/
