@@ -3,7 +3,7 @@
     "versionCode" : 1,
     "versionFormat" : "%versionName% or %versionCode%",
     "updateURL" : {
-        "en_us" : "https://cdn.jsdelivr.net/gh/RawDiamondMC/rawdiamondmc.github.io/version.json"
+        "zh_cn" : "https://cdn.jsdelivr.net/gh/RawDiamondMC/rawdiamondmc.github.io/version.json"
     },
         "changelogs" : {
         "2.1.2" : [
