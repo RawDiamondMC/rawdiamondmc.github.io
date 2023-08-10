@@ -8,7 +8,8 @@
         "changelogs" : {
         "2.1.2" : [
             "加入了Upd8r以检查更新",
-            "加入了Inventory hud+"
+            "加入了Inventory hud+",
+            "更新了EMI"
         ]
     }
 }
