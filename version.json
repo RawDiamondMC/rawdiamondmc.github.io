@@ -1,0 +1,14 @@
+{
+    "versionName" : "2.1.2",
+    "versionCode" : 1,
+    "versionFormat" : "%versionName% or %versionCode%",
+    "updateURL" : {
+        "en_us" : "https://cdn.jsdelivr.net/gh/RawDiamondMC/rawdiamondmc.github.io/version.json"
+    },
+        "changelogs" : {
+        "2.1.2" : [
+            "加入了Upd8r以检查更新",
+            "加入了Inventory hud+"
+        ]
+    }
+}
