@@ -25,7 +25,10 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Build VuePress site
         run: pnpm run docs:build
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          folder: docs/.vuepress/dist
+          target_branch: gh-pages
+          build_dir: docs/.vuepress/dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
