@@ -1,0 +1,41 @@
+{
+  "name": "rawdiamondmc-blog",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@10.6.3",
+  "author": "RawDiamondMC <RawDiamondMC@outlook.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^20.9.0 || >=22.0.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "pnpm dlx vp-update"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.317",
+    "artplayer": "^5.2.2",
+    "chart.js": "^4.4.8",
+    "mermaid": "^11.5.0"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "http-server": "^14.1.1",
+    "sass-embedded": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "typescript": "^5.8.2",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.20",
+    "vuepress-theme-plume": "1.0.0-rc.135"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  }
+}
