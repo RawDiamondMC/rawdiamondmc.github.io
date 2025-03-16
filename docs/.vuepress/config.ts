@@ -57,7 +57,7 @@ export default defineUserConfig({
            rust: true,
            kotlin: true,
          },
-         imageSize: 'all',
+         imageSize: 'local',
       },
     },
   }),
