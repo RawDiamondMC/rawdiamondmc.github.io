@@ -1,6 +1,6 @@
 ---
 title: 第一篇博客！
-permalink: /article/DYscTjLp
+permalink: /article/DYscTjLp/
 createTime: 2025/02/22 12:08:31
 ---
 
