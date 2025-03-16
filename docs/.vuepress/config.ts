@@ -7,9 +7,9 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: 'RawDiamondMC 的个人博客',
   description: '',
-  //head: [
-  //  ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
-  //],
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://s2.loli.net/2025/03/15/8EzegPl2yqTdSNa.png' }],
+  ],
   bundler: viteBundler(),
   shouldPrefetch: false,
 
