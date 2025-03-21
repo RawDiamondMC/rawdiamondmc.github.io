@@ -33,15 +33,13 @@ export default defineUserConfig({
        createTime: true,
        title: true,
     },
-    plugins: {
-      shiki: {
-         twoslash: true,
-      },
-      markdownEnhance: {
-         chartjs: true,
-         mermaid: true,
-      },
-      markdownPower: {
+    search: { provider: 'local' },
+    codeHighlighter: {
+      twoslash: true,
+      lineNumbers: 5, 
+    },
+    readingTime: true,
+      markdown: {
          plot: {
           mask: {
             light: "#000000",
@@ -58,7 +56,8 @@ export default defineUserConfig({
            kotlin: true,
          },
          imageSize: 'local',
+         chartjs: true,
+         mermaid: true,
       },
-    },
   }),
 })
